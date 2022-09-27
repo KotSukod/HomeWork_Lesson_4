@@ -3,8 +3,10 @@ int numA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int numB = Convert.ToInt32(Console.ReadLine());
 int result = 1;
-for (int i = 1; i<=numB;i++)
+int count = 1;
+while (count <=numB)
 {
     result= result * numA;
+    count = count + 1;
 }
 Console.WriteLine(result);
